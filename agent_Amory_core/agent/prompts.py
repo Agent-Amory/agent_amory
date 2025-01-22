@@ -3,8 +3,8 @@ from typing import List, Optional
 
 from langchain_core.messages import HumanMessage, SystemMessage
 
-from agent_lens_core.agent.views import ActionResult, AgentStepInfo
-from agent_lens_core.browser.views import BrowserState
+from agent_amory_core.agent.views import ActionResult, AgentStepInfo
+from agent_amory_core.browser.views import BrowserState
 
 
 class SystemPrompt:
