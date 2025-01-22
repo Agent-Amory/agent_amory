@@ -23,9 +23,9 @@ from openai import RateLimitError
 from PIL import Image, ImageDraw, ImageFont
 from pydantic import BaseModel, ValidationError
 
-from agent_lens_core.agent.message_manager.service import MessageManager
-from agent_lens_core.agent.prompts import AgentMessagePrompt, SystemPrompt
-from agent_lens_core.agent.views import (
+from agent_amory_core.agent.message_manager.service import MessageManager
+from agent_amory_core.agent.prompts import AgentMessagePrompt, SystemPrompt
+from agent_amory_core.agent.views import (
     ActionResult,
     AgentError,
     AgentHistory,
@@ -33,22 +33,22 @@ from agent_lens_core.agent.views import (
     AgentOutput,
     AgentStepInfo,
 )
-from agent_lens_core.browser.browser import Browser
-from agent_lens_core.browser.context import BrowserContext
-from agent_lens_core.browser.views import BrowserState, BrowserStateHistory
-from agent_lens_core.controller.registry.views import ActionModel
-from agent_lens_core.controller.service import Controller
-from agent_lens_core.dom.history_tree_processor.service import (
+from agent_amory_core.browser.browser import Browser
+from agent_amory_core.browser.context import BrowserContext
+from agent_amory_core.browser.views import BrowserState, BrowserStateHistory
+from agent_amory_core.controller.registry.views import ActionModel
+from agent_amory_core.controller.service import Controller
+from agent_amory_core.dom.history_tree_processor.service import (
     DOMHistoryElement,
     HistoryTreeProcessor,
 )
-from agent_lens_core.telemetry.service import ProductTelemetry
-from agent_lens_core.telemetry.views import (
+from agent_amory_core.telemetry.service import ProductTelemetry
+from agent_amory_core.telemetry.views import (
     AgentEndTelemetryEvent,
     AgentRunTelemetryEvent,
     AgentStepErrorTelemetryEvent,
 )
-from agent_lens_core.utils import time_execution_async
+from agent_amory_core.utils import time_execution_async
 
 load_dotenv()
 logger = logging.getLogger(__name__)
@@ -652,7 +652,7 @@ class Agent:
         logo = None
         if show_logo:
             try:
-                logo = Image.open('./static/agent-lens.png')
+                logo = Image.open('./static/agent-amory.png')
                 # Resize logo to be small (e.g., 40px height)
                 logo_height = 150
                 aspect_ratio = logo.width / logo.height
@@ -916,10 +916,10 @@ class Agent:
         # Draw screenshot
         frame.paste(screenshot_img, (screenshot_x, screenshot_y))
 
-        # Load agent-lens logo
-        logo_size = 100  # Increased size for agent-lens logo
+        # Load agent-amory logo
+        logo_size = 100  # Increased size for agent-amory logo
         logo_path = os.path.join(os.path.dirname(
-            __file__), 'assets/agent-lens-logo.png')
+            __file__), 'assets/agent-amory-logo.png')
         if os.path.exists(logo_path):
             logo = Image.open(logo_path)
             logo.thumbnail((logo_size, logo_size))
@@ -968,7 +968,7 @@ class Agent:
             fill='#f0f0f0',
         )
 
-        # Draw agent-lens small logo in top left of goal box
+        # Draw agent-amory small logo in top left of goal box
         small_logo_size = 30
         if os.path.exists(logo_path):
             small_logo = Image.open(logo_path)
