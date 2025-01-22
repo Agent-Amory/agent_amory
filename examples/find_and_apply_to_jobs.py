@@ -7,8 +7,8 @@ Also you have to install PyPDF2 to read pdf files: pip install PyPDF2
 """
 
 import logging
-from agent_lens_core.browser.context import BrowserContext
-from agent_lens_core import ActionResult, Agent, Controller
+from agent_amory_core.browser.context import BrowserContext
+from agent_amory_core import ActionResult, Agent, Controller
 from pydantic import BaseModel, SecretStr
 from langchain_openai import AzureChatOpenAI, ChatOpenAI
 from dotenv import load_dotenv
@@ -22,7 +22,7 @@ from pathlib import Path
 
 from PyPDF2 import PdfReader
 
-from agent_lens_core.browser.browser import Browser, BrowserConfig
+from agent_amory_core.browser.browser import Browser, BrowserConfig
 
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
