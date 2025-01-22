@@ -1,10 +1,10 @@
-from agent_lens_core import Agent
+from agent_amory_core import Agent
 from langchain_openai import ChatOpenAI
 import asyncio
 import os
 import sys
 
-from agent_lens_core.browser.browser import Browser, BrowserConfig
+from agent_amory_core.browser.browser import Browser, BrowserConfig
 
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
