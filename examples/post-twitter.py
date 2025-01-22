@@ -1,8 +1,8 @@
 """
-X Posting Template using agent-lens
+X Posting Template using agent-amory
 ----------------------------------------
 
-This template allows you to automate posting on X using agent-lens.
+This template allows you to automate posting on X using agent-amory.
 It supports:
 - Posting new tweets
 - Tagging users
@@ -17,8 +17,8 @@ reply_url="XXXXX"
 Any issues, contact me on X @defichemist95
 """
 
-from agent_lens_core import Agent, Controller
-from agent_lens_core.browser.browser import Browser, BrowserConfig
+from agent_amory_core import Agent, Controller
+from agent_amory_core.browser.browser import Browser, BrowserConfig
 from langchain_openai import ChatOpenAI
 import asyncio
 import os
