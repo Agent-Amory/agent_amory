@@ -1,4 +1,4 @@
-from agent_lens_core import Agent, Browser, Controller
+from agent_amory_core import Agent, Browser, Controller
 import asyncio
 import os
 import sys
