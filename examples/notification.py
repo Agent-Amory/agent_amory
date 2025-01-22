@@ -1,4 +1,4 @@
-from agent_lens_core import ActionResult, Agent, Controller
+from agent_amory_core import ActionResult, Agent, Controller
 from pydantic import BaseModel
 from langchain_openai import ChatOpenAI
 from dotenv import load_dotenv
