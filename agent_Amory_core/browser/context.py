@@ -23,13 +23,13 @@ from playwright.async_api import (
     Page,
 )
 
-from agent_lens_core.browser.views import BrowserError, BrowserState, TabInfo
-from agent_lens_core.dom.service import DomService
-from agent_lens_core.dom.views import DOMElementNode, SelectorMap
-from agent_lens_core.utils import time_execution_sync
+from agent_amory_core.browser.views import BrowserError, BrowserState, TabInfo
+from agent_amory_core.dom.service import DomService
+from agent_amory_core.dom.views import DOMElementNode, SelectorMap
+from agent_amory_core.utils import time_execution_sync
 
 if TYPE_CHECKING:
-    from agent_lens_core.browser.browser import Browser
+    from agent_amory_core.browser.browser import Browser
 
 logger = logging.getLogger(__name__)
 
