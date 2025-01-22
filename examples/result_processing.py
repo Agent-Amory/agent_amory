@@ -1,14 +1,14 @@
-from agent_lens_core.controller.service import Controller
-from agent_lens_core.agent.views import AgentHistoryList
-from agent_lens_core import Agent
+from agent_amory_core.controller.service import Controller
+from agent_amory_core.agent.views import AgentHistoryList
+from agent_amory_core import Agent
 from langchain_openai import ChatOpenAI
 import asyncio
 import os
 import sys
 from pprint import pprint
 
-from agent_lens_core.browser.browser import Browser, BrowserConfig
-from agent_lens_core.browser.context import (
+from agent_amory_core.browser.browser import Browser, BrowserConfig
+from agent_amory_core.browser.context import (
     BrowserContext,
     BrowserContextConfig,
     BrowserContextWindowSize,
