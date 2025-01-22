@@ -201,4 +201,4 @@ def test_action_creation(action_registry):
 
 
 # run this with:
-# pytest agent_lens_core/agent/tests.py
+# pytest agent_amory_core/agent/tests.py
