@@ -1,14 +1,14 @@
 import logging
-from agent_lens_core.browser.context import BrowserContext
-from agent_lens_core.browser.browser import Browser, BrowserConfig
-from agent_lens_core import Agent, Controller
+from agent_amory_core.browser.context import BrowserContext
+from agent_amory_core.browser.browser import Browser, BrowserConfig
+from agent_amory_core import Agent, Controller
 from langchain_openai import ChatOpenAI
 import asyncio
 import os
 import sys
 from pathlib import Path
 
-from agent_lens_core.agent.views import ActionResult
+from agent_amory_core.agent.views import ActionResult
 
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
