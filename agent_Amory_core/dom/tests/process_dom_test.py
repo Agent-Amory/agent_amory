@@ -2,7 +2,7 @@ import json
 import os
 import time
 
-from agent_lens_core.browser.browser import Browser, BrowserConfig
+from agent_amory_core.browser.browser import Browser, BrowserConfig
 
 
 async def test_process_dom():
@@ -17,7 +17,7 @@ async def test_process_dom():
 
         time.sleep(3)
 
-        with open('agent_lens_core/dom/process_dom.js', 'r') as f:
+        with open('agent_amory_core/dom/process_dom.js', 'r') as f:
             js_code = f.read()
 
         start = time.time()
