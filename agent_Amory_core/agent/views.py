@@ -9,14 +9,14 @@ from typing import Any, Dict, Optional, Type
 from openai import RateLimitError
 from pydantic import BaseModel, ConfigDict, Field, ValidationError, create_model
 
-from agent_lens_core.browser.views import BrowserStateHistory
-from agent_lens_core.controller.registry.views import ActionModel
-from agent_lens_core.dom.history_tree_processor.service import (
+from agent_amory_core.browser.views import BrowserStateHistory
+from agent_amory_core.controller.registry.views import ActionModel
+from agent_amory_core.dom.history_tree_processor.service import (
     DOMElementNode,
     DOMHistoryElement,
     HistoryTreeProcessor,
 )
-from agent_lens_core.dom.views import SelectorMap
+from agent_amory_core.dom.views import SelectorMap
 
 
 @dataclass
