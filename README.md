@@ -1,4 +1,4 @@
-<img src="./static/agent-amory.png" alt="Agent Amory Logo" width="full"/>
+<img src="https://imgur.com/HowAkLn" alt="Agent Amory Logo" width="full"/>
 
 <br/>
 
