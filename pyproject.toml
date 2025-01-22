@@ -1,5 +1,5 @@
 [project]
-name = "agent_lens_core"
+name = "agent_amory_core"
 description = "Seamlessly Integrating AI with the Web"
 version = "0.1.1"
 readme = "README.md"
