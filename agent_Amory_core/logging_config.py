@@ -64,7 +64,7 @@ def setup_logging():
     except AttributeError:
         pass  # Level already exists, which is fine
 
-    log_type = os.getenv('AGENT_LENS_LOGGING_LEVEL', 'info').lower()
+    log_type = os.getenv('AGENT_AMORY_LOGGING_LEVEL', 'info').lower()
 
     # Check if handlers are already set up
     if logging.getLogger().hasHandlers():
@@ -76,7 +76,7 @@ def setup_logging():
 
     class BrowserUseFormatter(logging.Formatter):
         def format(self, record):
-            if record.name.startswith('agent_lens_core.'):
+            if record.name.startswith('agent_amory_core.'):
                 record.name = record.name.split('.')[-2]
             return super().format(record)
 
@@ -102,13 +102,13 @@ def setup_logging():
     else:
         root.setLevel(logging.INFO)
 
-    # Configure agent_lens_core logger
-    agent_lens_logger = logging.getLogger('agent_lens_core')
-    agent_lens_logger.propagate = False  # Don't propagate to root logger
-    agent_lens_logger.addHandler(console)
-    agent_lens_logger.setLevel(root.level)  # Set same level as root logger
+    # Configure agent_amory_core logger
+    agent_amory_logger = logging.getLogger('agent_amory_core')
+    agent_amory_logger.propagate = False  # Don't propagate to root logger
+    agent_amory_logger.addHandler(console)
+    agent_amory_logger.setLevel(root.level)  # Set same level as root logger
 
-    logger = logging.getLogger('agent_lens_core')
+    logger = logging.getLogger('agent_amory_core')
     logger.info('BrowserUse logging setup complete with level %s', log_type)
     # Silence third-party loggers
     for logger in [
