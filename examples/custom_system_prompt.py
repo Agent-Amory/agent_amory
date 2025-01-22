@@ -1,4 +1,4 @@
-from agent_lens_core import Agent, SystemPrompt
+from agent_amory_core import Agent, SystemPrompt
 from langchain_openai import ChatOpenAI
 import asyncio
 import json
