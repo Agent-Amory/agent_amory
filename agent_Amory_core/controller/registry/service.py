@@ -4,14 +4,14 @@ from typing import Any, Callable, Optional, Type
 
 from pydantic import BaseModel, create_model
 
-from agent_lens_core.browser.context import BrowserContext
-from agent_lens_core.controller.registry.views import (
+from agent_amory_core.browser.context import BrowserContext
+from agent_amory_core.controller.registry.views import (
     ActionModel,
     ActionRegistry,
     RegisteredAction,
 )
-from agent_lens_core.telemetry.service import ProductTelemetry
-from agent_lens_core.telemetry.views import (
+from agent_amory_core.telemetry.service import ProductTelemetry
+from agent_amory_core.telemetry.views import (
     ControllerRegisteredFunctionsTelemetryEvent,
     RegisteredFunction,
 )
