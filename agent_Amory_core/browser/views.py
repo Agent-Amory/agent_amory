@@ -3,8 +3,8 @@ from typing import Any, Optional
 
 from pydantic import BaseModel
 
-from agent_lens_core.dom.history_tree_processor.service import DOMHistoryElement
-from agent_lens_core.dom.views import DOMState
+from agent_amory_core.dom.history_tree_processor.service import DOMHistoryElement
+from agent_amory_core.dom.views import DOMState
 
 
 # Pydantic
