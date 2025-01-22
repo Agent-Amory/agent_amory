@@ -4,7 +4,7 @@ from typing import Optional
 
 from playwright.async_api import Page
 
-from agent_lens_core.dom.views import (
+from agent_amory_core.dom.views import (
     DOMBaseNode,
     DOMElementNode,
     DOMState,
@@ -28,7 +28,7 @@ class DomService:
         return DOMState(element_tree=element_tree, selector_map=selector_map)
 
     async def _build_dom_tree(self, highlight_elements: bool) -> DOMElementNode:
-        js_code = resources.read_text('agent_lens_core.dom', 'buildDomTree.js')
+        js_code = resources.read_text('agent_amory_core.dom', 'buildDomTree.js')
 
         eval_page = await self.page.evaluate(
             js_code, [highlight_elements]
