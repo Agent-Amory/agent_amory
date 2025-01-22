@@ -13,7 +13,7 @@ from playwright.async_api import (
     async_playwright,
 )
 
-from agent_lens_core.browser.context import BrowserContext, BrowserContextConfig
+from agent_amory_core.browser.context import BrowserContext, BrowserContextConfig
 
 logger = logging.getLogger(__name__)
 
