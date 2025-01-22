@@ -1,5 +1,5 @@
-from agent_lens_core.controller.service import Controller
-from agent_lens_core.agent.service import Agent
+from agent_amory_core.controller.service import Controller
+from agent_amory_core.agent.service import Agent
 from pydantic import BaseModel
 from langchain_openai import ChatOpenAI
 from typing import List, Optional
