@@ -1,6 +1,6 @@
-from agent_lens_core.browser.context import BrowserContextConfig
-from agent_lens_core.browser.browser import Browser
-from agent_lens_core.agent.service import Agent
+from agent_amory_core.browser.context import BrowserContextConfig
+from agent_amory_core.browser.browser import Browser
+from agent_amory_core.agent.service import Agent
 import asyncio
 import os
 import sys
