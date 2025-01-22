@@ -4,7 +4,7 @@ Simple try of the agent.
 @dev You need to add OPENAI_API_KEY to your environment variables.
 """
 
-from agent_lens_core import Agent
+from agent_amory_core import Agent
 from langchain_openai import ChatOpenAI
 import asyncio
 import os
