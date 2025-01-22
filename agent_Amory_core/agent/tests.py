@@ -1,16 +1,16 @@
 import pytest
 
-from agent_lens_core.agent.views import (
+from agent_amory_core.agent.views import (
     ActionResult,
     AgentBrain,
     AgentHistory,
     AgentHistoryList,
     AgentOutput,
 )
-from agent_lens_core.browser.views import BrowserState, BrowserStateHistory, TabInfo
-from agent_lens_core.controller.registry.service import Registry
-from agent_lens_core.controller.views import ClickElementAction, DoneAction, ExtractPageContentAction
-from agent_lens_core.dom.views import DOMElementNode
+from agent_amory_core.browser.views import BrowserState, BrowserStateHistory, TabInfo
+from agent_amory_core.controller.registry.service import Registry
+from agent_amory_core.controller.views import ClickElementAction, DoneAction, ExtractPageContentAction
+from agent_amory_core.dom.views import DOMElementNode
 
 
 @pytest.fixture
