@@ -1,6 +1,6 @@
-from agent_lens_core.controller.service import Controller
-from agent_lens_core.browser.browser import Browser, BrowserConfig
-from agent_lens_core import Agent
+from agent_amory_core.controller.service import Controller
+from agent_amory_core.browser.browser import Browser, BrowserConfig
+from agent_amory_core import Agent
 import asyncio
 import argparse
 import os
