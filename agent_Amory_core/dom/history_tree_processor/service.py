@@ -2,8 +2,8 @@ import hashlib
 from dataclasses import dataclass
 from typing import Optional
 
-from agent_lens_core.dom.history_tree_processor.view import DOMHistoryElement, HashedDomElement
-from agent_lens_core.dom.views import DOMElementNode
+from agent_amory_core.dom.history_tree_processor.view import DOMHistoryElement, HashedDomElement
+from agent_amory_core.dom.views import DOMElementNode
 
 
 class HistoryTreeProcessor:
