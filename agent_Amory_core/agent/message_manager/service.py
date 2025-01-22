@@ -13,10 +13,10 @@ from langchain_core.messages import (
 )
 from langchain_openai import ChatOpenAI
 
-from agent_lens_core.agent.message_manager.views import MessageHistory, MessageMetadata
-from agent_lens_core.agent.prompts import AgentMessagePrompt, SystemPrompt
-from agent_lens_core.agent.views import ActionResult, AgentOutput, AgentStepInfo
-from agent_lens_core.browser.views import BrowserState
+from agent_amory_core.agent.message_manager.views import MessageHistory, MessageMetadata
+from agent_amory_core.agent.prompts import AgentMessagePrompt, SystemPrompt
+from agent_amory_core.agent.views import ActionResult, AgentOutput, AgentStepInfo
+from agent_amory_core.browser.views import BrowserState
 
 logger = logging.getLogger(__name__)
 
