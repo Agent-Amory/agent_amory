@@ -1,7 +1,7 @@
 import os
 import sys
 
-from agent_lens_core.logging_config import setup_logging
+from agent_amory_core.logging_config import setup_logging
 
 # Get the absolute path to the project root
 project_root = os.path.dirname(os.path.abspath(__file__))
