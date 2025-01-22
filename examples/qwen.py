@@ -3,14 +3,14 @@ import os
 
 from langchain_ollama import ChatOllama
 
-from agent_lens_core import Agent
+from agent_amory_core import Agent
 
 
 async def run_search():
     agent = Agent(
         task=(
             '1. Go to https://www.reddit.com/r/LocalLLaMA'
-            "2. Search for 'agent lens' in the search bar"
+            "2. Search for 'agent amory' in the search bar"
             '3. Click search'
             '4. Call done'
         ),
