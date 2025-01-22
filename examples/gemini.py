@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 from langchain_google_genai import ChatGoogleGenerativeAI
 from pydantic import SecretStr
 
-from agent_lens_core import Agent
+from agent_amory_core import Agent
 
 load_dotenv()
 api_key = os.getenv('GEMINI_API_KEY')
@@ -19,7 +19,7 @@ llm = ChatGoogleGenerativeAI(
 async def run_search():
     agent = Agent(
         task=(
-            'Go to url r/LocalLLaMA subreddit and search for "agent lens" in the search bar and click on the first post and find the funniest comment'
+            'Go to url r/LocalLLaMA subreddit and search for "agent amory" in the search bar and click on the first post and find the funniest comment'
         ),
         llm=llm,
         max_actions_per_step=4,
