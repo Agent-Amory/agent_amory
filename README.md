@@ -1,4 +1,5 @@
-<img src="https://imgur.com/yYazlwX" alt="Agent Amory Logo" width="full"/>
+<img src="https://i.imgur.com/yYazlwX.png" alt="Agent Amory Logo" width="full"/>
+
 
 
 <br/>
