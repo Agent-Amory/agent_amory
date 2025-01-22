@@ -1,5 +1,5 @@
-from agent_lens_core.browser.browser import Browser, BrowserConfig, BrowserContextConfig
-from agent_lens_core.agent.service import Agent
+from agent_amory_core.browser.browser import Browser, BrowserConfig, BrowserContextConfig
+from agent_amory_core.agent.service import Agent
 from pydantic import SecretStr
 from langchain_openai import AzureChatOpenAI
 import asyncio
