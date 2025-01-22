@@ -3,12 +3,12 @@ import json
 
 import pytest
 
-from agent_lens_core.browser.browser import Browser, BrowserConfig
-from agent_lens_core.dom.views import ElementTreeSerializer
-from agent_lens_core.utils import time_execution_sync
+from agent_amory_core.browser.browser import Browser, BrowserConfig
+from agent_amory_core.dom.views import ElementTreeSerializer
+from agent_amory_core.utils import time_execution_sync
 
 
-# run with: pytest agent_lens_core/browser/tests/test_clicks.py
+# run with: pytest agent_amory_core/browser/tests/test_clicks.py
 @pytest.mark.asyncio
 async def test_highlight_elements():
     browser = Browser(config=BrowserConfig(
