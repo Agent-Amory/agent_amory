@@ -4,10 +4,10 @@ import logging
 from main_content_extractor import MainContentExtractor
 from playwright.async_api import Page
 
-from agent_lens_core.agent.views import ActionModel, ActionResult
-from agent_lens_core.browser.context import BrowserContext
-from agent_lens_core.controller.registry.service import Registry
-from agent_lens_core.controller.views import (
+from agent_amory_core.agent.views import ActionModel, ActionResult
+from agent_amory_core.browser.context import BrowserContext
+from agent_amory_core.controller.registry.service import Registry
+from agent_amory_core.controller.views import (
     ClickElementAction,
     DoneAction,
     ExtractPageContentAction,
@@ -19,7 +19,7 @@ from agent_lens_core.controller.views import (
     SendKeysAction,
     SwitchTabAction,
 )
-from agent_lens_core.utils import time_execution_async, time_execution_sync
+from agent_amory_core.utils import time_execution_async, time_execution_sync
 
 logger = logging.getLogger(__name__)
 
