@@ -3,11 +3,11 @@ from langchain_anthropic import ChatAnthropic
 from langchain_core.messages import AIMessage, HumanMessage, SystemMessage
 from langchain_openai import AzureChatOpenAI, ChatOpenAI
 
-from agent_lens_core.agent.message_manager.service import MessageManager
-from agent_lens_core.agent.prompts import SystemPrompt
-from agent_lens_core.agent.views import ActionResult
-from agent_lens_core.browser.views import BrowserState, TabInfo
-from agent_lens_core.dom.views import DOMElementNode, DOMTextNode
+from agent_amory_core.agent.message_manager.service import MessageManager
+from agent_amory_core.agent.prompts import SystemPrompt
+from agent_amory_core.agent.views import ActionResult
+from agent_amory_core.browser.views import BrowserState, TabInfo
+from agent_from agent_amory_core.browser.views import BrowserState, TabInfo_core.dom.views import DOMElementNode, DOMTextNode
 
 
 @pytest.fixture(
