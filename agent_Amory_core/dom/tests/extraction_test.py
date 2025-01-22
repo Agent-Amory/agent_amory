@@ -2,11 +2,11 @@ import time
 
 from tokencost import count_string_tokens
 
-from agent_lens_core.browser.browser import Browser, BrowserConfig
+from agent_amory_core.browser.browser import Browser, BrowserConfig
 
-# from agent_lens_core.browser.service import Browser
-from agent_lens_core.dom.service import DomService
-from agent_lens_core.utils import time_execution_sync
+# from agent_amory_core.browser.service import Browser
+from agent_amory_core.dom.service import DomService
+from agent_amory_core.utils import time_execution_sync
 
 
 # @pytest.mark.skip("slow af")
