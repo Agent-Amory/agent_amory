@@ -1,6 +1,6 @@
-from agent_lens_core.browser.context import BrowserContextConfig
-from agent_lens_core.browser.browser import Browser, BrowserConfig
-from agent_lens_core.agent.service import Agent
+from agent_amory_core.browser.context import BrowserContextConfig
+from agent_amory_core.browser.browser import Browser, BrowserConfig
+from agent_amory_core.agent.service import Agent
 from langchain_openai import ChatOpenAI
 import asyncio
 import os
