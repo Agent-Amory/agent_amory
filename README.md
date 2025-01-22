@@ -1,22 +1,22 @@
-<img src="./static/agent-lens.png" alt="Agent Lens Logo" width="full"/>
+<img src="./static/agent-amory.png" alt="Agent Amory Logo" width="full"/>
 
 <br/>
 
-[![Documentation](https://img.shields.io/badge/Documentation-📕-blue)](https://docs.agent-lens.com)
-[![Twitter Follow](https://img.shields.io/twitter/follow/agent_lens?style=social)](https://x.com/agent_lens)
+[![Documentation](https://img.shields.io/badge/Documentation-📕-blue)](https://docs.amory.dev)
+[![Twitter Follow](https://img.shields.io/twitter/follow/AgentAmory?style=social)](https://x.com/AgentAmory)
 
 Seamlessly Integrating AI with the Web
 
 We enable AI systems to interact with websites by pinpointing and isolating essential interactive elements for smooth navigation.
 
-To learn more about the library, check out the [documentation 📕](https://docs.agent-lens.com).
+To learn more about the library, check out the [documentation 📕](https://docs.amory.dev).
 
 # Quick start
 
 With pip:
 
 ```bash
-pip install agent_lens_core
+pip install agent_amory_core
 ```
 
 (optional) install playwright:
@@ -29,7 +29,7 @@ Spin up your agent:
 
 ```python
 from langchain_openai import ChatOpenAI
-from agent_lens_core import Agent
+from agent_amory_core import Agent
 import asyncio
 
 async def main():
@@ -49,7 +49,7 @@ And don't forget to add your API keys to your `.env` file.
 OPENAI_API_KEY=
 ```
 
-For other settings, models, and more, check out the [documentation 📕](https://docs.agent-lens.com).
+For other settings, models, and more, check out the [documentation 📕](https://docs.amory.dev).
 
 ## Examples
 
@@ -61,10 +61,6 @@ Contributions are welcome! Feel free to open issues for bugs or feature requests
 
 ## Local Setup
 
-To learn more about the library, check out the [local setup 📕](https://docs.agent-lens.com/development/local-setup).
+To learn more about the library, check out the [local setup 📕](https://docs.amory.dev/development/local-setup).
 
 ---
-
-<div align="center">
-  Made with ❤️ in Zurich and San Francisco
-</div>
