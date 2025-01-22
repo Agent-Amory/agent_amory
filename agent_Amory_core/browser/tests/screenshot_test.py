@@ -2,7 +2,7 @@ import base64
 
 import pytest
 
-from agent_lens_core.browser.browser import Browser, BrowserConfig
+from agent_amory_core.browser.browser import Browser, BrowserConfig
 
 
 @pytest.fixture
