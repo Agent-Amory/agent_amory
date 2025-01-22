@@ -4,7 +4,7 @@ Show how to use custom outputs.
 @dev You need to add OPENAI_API_KEY to your environment variables.
 """
 
-from agent_lens_core import ActionResult, Agent, Controller
+from agent_amory_core import ActionResult, Agent, Controller
 from pydantic import BaseModel
 from langchain_openai import ChatOpenAI
 from dotenv import load_dotenv
