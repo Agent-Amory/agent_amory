@@ -6,6 +6,8 @@
 
 [![Documentation](https://img.shields.io/badge/Documentation-📕-blue)](https://amory.dev/docs)
 [![Twitter Follow](https://img.shields.io/twitter/follow/AgentAmory?style=social)](https://x.com/AgentAmory)
+[![PyPI](https://img.shields.io/pypi/v/agent-amory-core?color=orange&label=PyPI)](https://pypi.org/project/agent-amory-core/0.1.1/)
+
 
 Seamlessly Integrating AI with the Web
 
