@@ -51,7 +51,7 @@ And don't forget to add your API keys to your `.env` file.
 OPENAI_API_KEY=
 ```
 
-For other settings, models, and more, check out the [documentation 📕](https://docs.amory.dev).
+For other settings, models, and more, check out the [documentation 📕](https://amory.dev/docs/core-concepts/configuration).
 
 ## Examples
 
