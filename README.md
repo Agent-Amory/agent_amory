@@ -11,7 +11,7 @@ Seamlessly Integrating AI with the Web
 
 We enable AI systems to interact with websites by pinpointing and isolating essential interactive elements for smooth navigation.
 
-To learn more about the library, check out the [documentation 📕](https://docs.amory.dev).
+To learn more about the library, check out the [documentation 📕](https://amory.dev/docs).
 
 # Quick start
 
