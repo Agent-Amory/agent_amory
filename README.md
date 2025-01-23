@@ -4,7 +4,7 @@
 
 <br/>
 
-[![Documentation](https://img.shields.io/badge/Documentation-📕-blue)](https://docs.amory.dev)
+[![Documentation](https://img.shields.io/badge/Documentation-📕-blue)](https://amory.dev/docs)
 [![Twitter Follow](https://img.shields.io/twitter/follow/AgentAmory?style=social)](https://x.com/AgentAmory)
 
 Seamlessly Integrating AI with the Web
