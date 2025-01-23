@@ -63,6 +63,6 @@ Contributions are welcome! Feel free to open issues for bugs or feature requests
 
 ## Local Setup
 
-To learn more about the library, check out the [local setup 📕](https://docs.amory.dev/development/local-setup).
+To learn more about the library, check out the [local setup 📕](https://amory.dev/docs/advanced/api-reference).
 
 ---
